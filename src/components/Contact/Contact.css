@@ -1,0 +1,85 @@
+.contact {
+    padding-top: 140px;
+    padding-bottom: 114px;
+  }
+  .contact__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media only screen and (max-width: 767px) {
+    .contact__wrapper {
+      flex-direction: column;
+    }
+  }
+  .contact__content {
+    width: 360px;
+  }
+  .contact__content h4 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width: 767px) {
+    .contact__content h4 {
+      text-align: center;
+    }
+  }
+  .contact__content p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  @media only screen and (max-width: 767px) {
+    .contact__content p {
+      margin-bottom: 35px;
+    }
+  }
+  .contact__info {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media only screen and (max-width: 767px) {
+    .contact__info {
+      width: 100%;
+    }
+  }
+  .contact__info ul li {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  @media only screen and (max-width: 767px) {
+    .contact__info ul li {
+      font-size: 15px;
+      line-height: 17px;
+    }
+  }
+  .contact__info ul li strong {
+    font-weight: 700;
+  }
+  .contact__button a {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    background: #fdc212;
+    border-radius: 50px;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 767px) {
+    .contact__button a {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 10px 10px;
+    }
+  }

@@ -1,0 +1,78 @@
+.app__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media only screen and (max-width: 767px) {
+    .app__wrapper {
+      flex-direction: column-reverse;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .app__thumbnail {
+      margin-top: 40px;
+      text-align: center;
+    }
+  }
+  .app__content {
+    width: 40%;
+    margin-right: 100px;
+  }
+  @media only screen and (max-width: 767px) {
+    .app__content {
+      width: 100%;
+      margin-right: 0;
+    }
+    .app__content h4,
+  .app__content p {
+      text-align: center;
+    }
+  }
+  .app__content h4 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .app__content p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 45px;
+  }
+  .app__buttons {
+    display: flex;
+  }
+  @media only screen and (max-width: 767px) {
+    .app__buttons {
+      justify-content: center;
+    }
+  }
+  .app__buttons .app__button {
+    margin-right: 20px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    background: #fdc212;
+    border-radius: 50px;
+    justify-content: space-between;
+  }
+  @media only screen and (max-width: 767px) {
+    .app__buttons .app__button {
+      padding: 10px 10px;
+    }
+  }
+  .app__buttons .app__button a {
+    margin-left: 10px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 767px) {
+    .app__buttons .app__button a {
+      font-size: 19px;
+    }
+  }
